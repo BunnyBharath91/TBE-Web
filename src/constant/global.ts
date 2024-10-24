@@ -31,6 +31,11 @@ const products: ProductDataProps = {
     slug: '/shiksha',
     description: 'Learn Tech with Free Bite-sized Courses',
   },
+  interview: {
+    label: 'Interview Prep',
+    slug: '/interview',
+    description: 'Prepare for Upcoming Tech Interviews',
+  },
   workshops: {
     label: 'The Boring Workshops',
     slug: `https://www.youtube.com/playlist?list=PLOPyGCrLiI_5JPAbIsv1T129b5LqdurTc`,
