@@ -68,6 +68,16 @@ const PRODUCTS: PrimaryCardWithCTAProps[] = [
     active: true,
     ctaText: 'Explore Free Projects',
   },
+  {
+    id: 'interview',
+    image: `${STATIC_FILE_PATH.svg}/projects.svg`,
+    imageAltText: products.interview.label,
+    title: products.interview.label,
+    content: products.interview.description,
+    href: products.interview.slug,
+    active: true,
+    ctaText: 'Explore Sheets',
+  },
 
   {
     id: 'workshops',
